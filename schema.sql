@@ -22,9 +22,9 @@ CREATE TABLE Product_Dim (
 
 CREATE TABLE Date_Dim (
     Date_ID INT PRIMARY KEY ,
-    Date_of_Purchase DATE,
-    Year INT,
-    Month INT,
+    Date_of_Purchase DATETIME,
+    Year NVARCHAR(255),
+    Month NVARCHAR(255),
     Day_of_Week NVARCHAR(255)
 );
 
